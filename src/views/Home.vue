@@ -10,9 +10,9 @@
          <span class="usiere-text">Usiere,</span><br>
           </h1>
         <h3>Fullstack web developer.</h3>
-        <div>A self trained web developer with 3+ years experience in fullstack web development, with core interest in building innovative projects for corporations, startups and individuals.</div>
+        <div>4+ years experienced Fullstack web developer, with core interest in building innovative projects for corporations, startups and individuals.</div>
         <br>
-        <div>As a fullstack stack dev, i have made use of industry standard technologies in bringing interesting projects to life. These include
+        <div>As a job and a hobby, i make use of industry standard technologies in bringing interesting projects to life. These include
            <strong> VueJs, NuxtJs, Html, CSS, Javascript, React, NodeJs and ExpressJs and MongoDB.</strong>
             In addition, I always imbibe industry methodologies such as Responsive design, UI wireframing(Figma), System Architecture, Agile development and proficent use of npm libraries in projects.
             I am also a new technical writer with recent publishes to Javascript.plainenglish.io.
@@ -139,3 +139,11 @@ export default {
   }
 }
 </style>
+
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+    After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author

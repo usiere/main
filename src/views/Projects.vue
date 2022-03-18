@@ -4,6 +4,9 @@
     <span class="sub-text">All projects listed are real projects built from the UI conceptualisation stage up to deployment</span>
  
     <div class="main">
+       <div class="card1" v-b-modal.modal-6>
+         <img src="../assets/projects/ifeps.png" alt="" width="150px" class="img">
+      </div>
       <div class="card1" v-b-modal.modal-2>
          <img src="../assets/projects/loocum.png" alt="" width="200px" class="img">
       </div>
@@ -19,6 +22,12 @@
     </div>
 
     <!-- modal -->
+     <b-modal id="modal-6" title="Project info" centered hide-footer>
+         <img src="../assets/projects/ifeps.png" alt="" width="150px" class="img">
+       <p class="modal-text">IFEPS is a Professional Development and Change Strategy Community located in Abuja, Nigeria.</p>
+       <p class="modal-text">Involved in the full development of the Company website.</p>
+       <a href="https://www.ifeps.org"  class="btn1">View project</a>
+  </b-modal>
       <b-modal id="modal-2" title="Project info" centered hide-footer>
          <img src="../assets/projects/loocum.png" alt="" width="200px" class="img">
        <p class="modal-text">Loocum is health tech startup that helps connect Health facilities in Nigeria to fill realtime emergency shifts.</p>
