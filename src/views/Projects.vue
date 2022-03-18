@@ -1,7 +1,8 @@
 <template>
   <div class="about">
     <h1 class="heading1">My Projects</h1>
-    <span class="sub-text">All projects listed are real projects built from the UI conceptualisation stage up to deployment</span>
+    <span class="sub-text">Some projects are not listed here (i.e projects involving the Nigerian ministry) for rights and privacy concerns.
+      All projects listed are real projects built from the UI conceptualisation stage up to deployment.</span>
  
     <div class="main">
        <div class="card1" v-b-modal.modal-6>
@@ -18,6 +19,9 @@
       </div>
           <div class="card1" v-b-modal.modal-5>
         <img src="../assets/projects/arberta.png" alt="" width="150px" class="img">
+      </div>
+          <div class="card1" v-b-modal.modal-6>
+        <img src="../assets/projects/9mob.png" alt="" width="70px" class="img">
       </div>
     </div>
 
@@ -55,6 +59,12 @@
        <p class="modal-text">Arberta helps individuals based in the diaspora to verify and purchase properties in Africa. </p>
        <p class="modal-text">Hired as the principal web developer, from UI wireframing to development.</p>
        <a href="https://usiere.github.io/arberta/"  class="btn1">View project</a>
+  </b-modal>
+
+    <b-modal id="modal-6" title="Project info" centered hide-footer>
+         <img src="../assets/projects/9mob.png" alt="" width="70px" class="img"><br><br>
+       <p class="modal-text">Work on a team project on building an API website for 9mobile </p>
+       <a href="https://telcoapi.9mobile.com.ng/"  class="btn1">View project</a>
   </b-modal>
   </div>
 </template>
