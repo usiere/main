@@ -8,7 +8,7 @@
         <div class="nav-items main">
           <router-link to="/projects" class="nav-item">Projects</router-link>
           <router-link to="/articles" class="nav-item">Articles</router-link>
-          <span class="nav-item" v-b-modal.modal-1>Contact me</span>
+          <span class="nav-item" v-b-modal.modal-contact>Contact me</span>
         </div>
       </div>
 
@@ -27,7 +27,7 @@
     <router-view />
 
 <div>
-  <b-modal id="modal-1" title="Contact me" hide-footer hide-header centered>
+  <b-modal id="modal-contact" title="Contact me" hide-footer hide-header centered>
     <h1 class="modal-heading">Contact me:</h1>
       <div class="grid1">
         <a class="grid1-flex" href="mailto:akpabio98@gmail.com">
