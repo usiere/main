@@ -9,7 +9,7 @@
         <h1 class="intro-text">Hi, I'm 
          <span class="usiere-text">Usiere,</span><br>
           </h1>
-        <h3>Fullstack web developer.</h3>
+        <h3>Frontend Fullstack web developer.</h3>
         <div>4+ years experienced Frontend Fullstack web developer, with core interest in building innovative projects for corporations, startups and individuals.</div>
         <br>
         <div>As a job and a hobby, i make use of industry standard technologies in bringing interesting projects to life. These include
