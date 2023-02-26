@@ -78,14 +78,14 @@
             <br><br><br>
           <div>
               
-              <span class="rights-text-mob"> Usiere. © 2021.</span>
+              <span class="rights-text-mob"> Usiere. © 2022.</span>
           </div>
           
       </div>
     </b-sidebar>
 
       
-    <span class=""> Usiere. © 2021.</span>
+    <span class=""> Usiere. © 2022.</span>
   </div>
 </template>
 
