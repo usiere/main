@@ -30,7 +30,7 @@
          <img src="../assets/projects/ifeps.png" alt="" width="150px" class="img">
        <p class="modal-text">IFEPS is a Professional Development and Change Strategy Community located in Abuja, Nigeria.</p>
        <p class="modal-text">Involved in the full development of the Company website.</p>
-       <a href="https://www.ifeps.org.ng"  class="btn1">View project</a>
+       <a href="https://thinknigeria.org/"  class="btn1">View project</a>
   </b-modal>
       <b-modal id="modal-2" title="Project info" centered hide-footer>
          <img src="../assets/projects/loocum.png" alt="" width="200px" class="img">
@@ -44,7 +44,7 @@
          <br><br>
        <p class="modal-text">Cuplime is a community based platform for young innovators.</p>
        <p class="modal-text">Involved as the principal frontend developer</p>
-       <a href="https://usiere.github.io/cuplime/"  class="btn1">View project</a>
+       <a href="https://cuplime.com/"  class="btn1">View project</a>
   </b-modal>
 
         <b-modal id="modal-4" title="Project info" centered hide-footer>
