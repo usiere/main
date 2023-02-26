@@ -10,7 +10,7 @@
          <span class="usiere-text">Usiere,</span><br>
           </h1>
         <h3>Fullstack web developer.</h3>
-        <div>3+ years experienced Fullstack web developer, with core interest in building innovative projects for corporations, startups and individuals.</div>
+        <div>4+ years experienced Fullstack web developer, with core interest in building innovative projects for corporations, startups and individuals.</div>
         <br>
         <div>As a job and a hobby, i make use of industry standard technologies in bringing interesting projects to life. These include
            <strong> VueJs, NuxtJs, Html, CSS, Javascript, React, NodeJs and ExpressJs and MongoDB.</strong>
