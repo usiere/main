@@ -10,7 +10,9 @@
          <span class="usiere-text">Usiere,</span><br>
           </h1>
         <h3>Frontend Fullstack web developer.</h3>
-        <div>4+ years experienced Frontend Fullstack web developer, with core interest in building innovative projects for corporations, startups and individuals.</div>
+        <el-tabs v-model="activeName" @tab-click="handleClick">
+    <el-tab-pane label="About me" name="first">
+      <div>4+ years experienced Frontend Fullstack web developer, with core interest in building innovative projects for corporations, startups and individuals.</div>
         <br>
         <div>As a job and a hobby, i make use of industry standard technologies in bringing interesting projects to life. These include
            <strong> VueJs, NuxtJs, Html, CSS, Javascript, React, NodeJs and ExpressJs and MongoDB.</strong>
@@ -19,6 +21,32 @@
             </div>
             <br>
         <router-link to="/projects" class="btn1">View projects</router-link>
+    </el-tab-pane>
+    <el-tab-pane label="Projects" name="second">
+      <el-collapse v-model="activeNames" @change="handleChange">
+  <el-collapse-item title="Consistency" name="1">
+    <div>Consistent with real life: in line with the process and logic of real life, and comply with languages and habits that the users are used to;</div>
+    <div>Consistent within interface: all elements should be consistent, such as: design style, icons and texts, position of elements, etc.</div>
+  </el-collapse-item>
+  <el-collapse-item title="Feedback" name="2">
+    <div>Operation feedback: enable the users to clearly perceive their operations by style updates and interactive effects;</div>
+    <div>Visual feedback: reflect current state by updating or rearranging elements of the page.</div>
+  </el-collapse-item>
+  <el-collapse-item title="Efficiency" name="3">
+    <div>Simplify the process: keep operating process simple and intuitive;</div>
+    <div>Definite and clear: enunciate your intentions clearly so that the users can quickly understand and make decisions;</div>
+    <div>Easy to identify: the interface should be straightforward, which helps the users to identify and frees them from memorizing and recalling.</div>
+  </el-collapse-item>
+  <el-collapse-item title="Controllability" name="4">
+    <div>Decision making: giving advices about operations is acceptable, but do not make decisions for the users;</div>
+    <div>Controlled consequences: users should be granted the freedom to operate, including canceling, aborting or terminating current operation.</div>
+  </el-collapse-item>
+</el-collapse>
+    </el-tab-pane>
+    <el-tab-pane label="Role" name="third">Role</el-tab-pane>
+    <el-tab-pane label="Task" name="fourth">Task</el-tab-pane>
+  </el-tabs>
+     
         <br><br><br>
       </div>
     </div>
@@ -26,19 +54,23 @@
 </template>
 
 <script>
-
-
-// @ is an alias to /src
-
-
-export default {
-  name: "Home",
-  components: {
-  },
-};
+  export default {
+    data() {
+      return {
+        activeName: 'first'
+      };
+    },
+    methods: {
+      handleClick(tab, event) {
+        console.log(tab, event);
+      }
+    }
+  };
 </script>
 
 <style scoped>
+@import url("//unpkg.com/element-ui@2.15.14/lib/theme-chalk/index.css");
+
 .main{
   display: grid;
   grid-template-columns: 50% 50%;
