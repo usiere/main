@@ -6,9 +6,45 @@
             <img src="./assets/Usiere.png" alt="" width="100px" class="logo">
         </router-link>
         <div class="nav-items main">
-          <router-link to="/projects" class="nav-item">Projects</router-link>
-          <router-link to="/articles" class="nav-item">Articles</router-link>
-          <span class="nav-item" v-b-modal.modal-contact>Contact me</span>
+            <!-- <div class="nav-item">
+              <font-awesome-icon
+                    :icon="['fas', 'envelope']"
+                    class="modal-icon-mob"
+                />
+            </div>
+
+            <div class="nav-item">
+              <font-awesome-icon
+                    :icon="['fas', 'envelope']"
+                    class="modal-icon-mob"
+                />
+            </div>
+
+            <div class="nav-item">
+              <font-awesome-icon
+                    :icon="['fas', 'envelope']"
+                    class="modal-icon-mob"
+                />
+            </div> -->
+        
+                        
+          <a href="https://www.linkedin.com/in/usiereakpabio/" class="nav-item" target=”_blank” v-b-tooltip.hover title="Linkedin">        
+            <b-icon icon="linkedin" aria-hidden="true"></b-icon>
+          </a>
+          <a href="https://github.com/usiere/" class="nav-item" target=”_blank” v-b-tooltip.hover title="Github">      
+            <b-icon icon="github" aria-hidden="true"></b-icon>
+          </a>
+                <a href="https://gitlab.com/moses_akpabio" class="nav-item" target=”_blank” v-b-tooltip.hover title="Gitlab">        
+                  <img src="./assets/gitlab.png" width="20px" />
+                </a>
+
+                <a href="mailto:akpabio98@gmail.com" class="nav-item" target=”_blank” v-b-tooltip.hover title="Email">        
+                  <font-awesome-icon
+                    :icon="['fas', 'envelope']"
+                    class="modal-icon-mob"
+                />
+                </a>
+          
         </div>
       </div>
 
@@ -50,42 +86,35 @@
 <!-- sidebar for mobile -->
          <b-sidebar id="sidebar-1" title="" right shadow class="sidebar">
       <div class="px-3 py-2 nav-flex">
-          <router-link  to="/" class="nav-item-mob">Home
-           <!-- <font-awesome-icon :icon="['fas', 'bars']" class="menu-icon" v-b-toggle.sidebar-1 /> -->
-          </router-link>
-          <router-link  to="/projects" class="nav-item-mob">Projects 
-           <!-- <font-awesome-icon :icon="['fas', 'bars']" class="menu-icon" v-b-toggle.sidebar-1 /> -->
-          </router-link>
-          <router-link  to="/articles" class="nav-item-mob">Articles</router-link>
-        <br><br>
-           <!-- adding the contact icons -->
-                <div class="grid1">
-        <a class="grid1-flex-mob" href="mailto:akpabio98@gmail.com">
-          
-           <font-awesome-icon
+        <a href="https://www.linkedin.com/in/usiereakpabio/" class="nav-item-mob" target=”_blank” v-b-tooltip.hover title="Linkedin">        
+            <b-icon icon="linkedin" aria-hidden="true"></b-icon>
+          </a>
+          <a href="https://github.com/usiere/" class="nav-item-mob" target=”_blank” v-b-tooltip.hover title="Github">      
+            <b-icon icon="github" aria-hidden="true"></b-icon>
+          </a>
+                <a href="https://gitlab.com/moses_akpabio" class="nav-item-mob" target=”_blank” v-b-tooltip.hover title="Gitlab">        
+                  <img src="./assets/gitlab.png" width="40px" />
+                </a>
+
+                <a href="mailto:akpabio98@gmail.com" class="nav-item-mob" target=”_blank” v-b-tooltip.hover title="Email">        
+                  <font-awesome-icon
                     :icon="['fas', 'envelope']"
                     class="modal-icon-mob"
                 />
-        </a>
-        <a class="grid1-flex-mob" href="tel:+2349026212016">
-             <font-awesome-icon
-                    :icon="['fas', 'phone']"
-                    class="modal-icon-mob"
-                />
-        </a>
-      </div>
+                </a>
+
 
             <br><br><br>
           <div>
               
-              <span class="rights-text-mob"> Usiere. © 2022.</span>
+              <span class="rights-text-mob"> Usiere. © 2024.</span>
           </div>
           
       </div>
     </b-sidebar>
 
       
-    <span class=""> Usiere. © 2022.</span>
+    <span class=""> Usiere. © 2024.</span>
   </div>
 </template>
 
@@ -142,6 +171,7 @@
 .nav-item:hover{
   font-weight: 500;
   cursor: pointer;
+  color: blue;
 }
 
 .nav-flex{
@@ -218,6 +248,11 @@
   color: black;
   text-decoration: none;
   margin: 10px;
+  font-size: 40px;
+}
+
+.nav-item-mob:hover{
+  color: blue;
 }
 
 .grid1-flex-mob{

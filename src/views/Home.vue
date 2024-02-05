@@ -12,7 +12,7 @@
         <h3>Frontend Fullstack web developer.</h3>
         <el-tabs v-model="activeName" @tab-click="handleClick">
     <el-tab-pane label="About me" name="first">
-      <div>4+ years experienced Frontend Fullstack web developer, with core interest in building innovative projects for corporations, startups and individuals.</div>
+      <div>5 years experienced Frontend Fullstack web developer, with core interest in building innovative projects for corporations, startups and individuals.</div>
         <br>
         <div>As a job and a hobby, i make use of industry standard technologies in bringing interesting projects to life. These include
            <strong> VueJs, NuxtJs, Html, CSS, Javascript, React, NodeJs and ExpressJs and MongoDB.</strong>
@@ -26,35 +26,46 @@
       <el-collapse v-model="activeNames" @change="handleChange">
   <el-collapse-item title="MSDAT" name="1">
     <div>A multisource and triangulation platform built for the ministry of health in Nigeria. It provides a single transparent view of key health indicators against multiple data sources. It offers a view against key metrics using sources that range from routine data, surveys to global estimates recognizing that data quality, trends and interpretation depend on the type of source and methodology behind the data.</div>
-    <a href="https://msdat.fmohconnect.gov.ng/">website link</a>
+    <a href="https://msdat.fmohconnect.gov.ng/" target=”_blank”>website link</a>
   </el-collapse-item>
   <el-collapse-item title="Innovation Scaling" name="2">
     <div>BOTSWANA HEALTH INNOVATION MANAGEMENT SYSTEM; Managing end-to-end process of demand-driven innovations for sustainable impact in Botswana</div>
-    <a href="https://mohinnovations.gov.bw/">website link</a>
+    <a href="https://mohinnovations.gov.bw/" target=”_blank”>website link</a>
   </el-collapse-item>
   <el-collapse-item title="APHRC" name="3">
     <div>African Population and Health Research Center (APHRC) MEL Portal!
 The portal serves as a comprehensive Measurement and Evaluation (M&E) solution, aligned to APHRC's Strategic and its Measurement, Evaluation, and Learning (MEL) plan. </div>
-<a href="https://aphrc.e4eweb.space/">website link</a>
+<a href="https://aphrc.e4eweb.space/" target=”_blank”>website link</a>
 <div></div>
   </el-collapse-item>
   <el-collapse-item title="Dopawell" name="4">
     <div>Dopawell: A tele therapy platform for Africans</div>
-    <a href="https://dopawell.com/">website link</a>
+    <a href="https://dopawell.com/" target=”_blank”>website link</a>
   </el-collapse-item>
-  <el-collapse-item title="IFEPS" name="3">
-    <a href="https://ifeps.org.ng/">website link</a>
+  <el-collapse-item title="IFEPS" name="5">
+    <a href="https://ifeps.org.ng/" target=”_blank”>website link</a>
     <div></div>
   </el-collapse-item>
-  <el-collapse-item title="Arberta" name="4">
-    <a href="https://usiere.github.io/arberta/">website link</a>
+  <el-collapse-item title="Arberta" name="6">
+    <a href="https://usiere.github.io/arberta/" target=”_blank”>website link</a>
   </el-collapse-item>
-  <el-collapse-item title="LifeOnline" name="4">
-    <a href="https://usiere.github.io/lifeonline/">website link</a>
+  <el-collapse-item title="LifeOnline" name="7">
+    <a href="https://usiere.github.io/lifeonline/" target=”_blank”>website link</a>
   </el-collapse-item>
 </el-collapse>
     </el-tab-pane>
-    <el-tab-pane label="Articles" name="third">Articles</el-tab-pane>
+    <el-tab-pane label="Articles" name="third">
+      <el-collapse v-model="activeNames" @change="handleChange">
+  <el-collapse-item title="Simplifying Middleware in Express for Newbies and Pros Alike" name="1">
+    <div></div>
+    <a href="https://javascript.plainenglish.io/simplifying-middleware-in-expressjs-baad2d6595f3" target=”_blank”>article link</a>
+  </el-collapse-item>
+  <el-collapse-item title="Basic Form Validation using Vue.js: A Simple Guide" name="2">
+    <a href="https://javascript.plainenglish.io/basic-form-validation-using-vuejs-ad9489628617" target=”_blank”>article link</a>
+  </el-collapse-item>
+
+</el-collapse>
+    </el-tab-pane>
   </el-tabs>
      
         <br><br><br>
