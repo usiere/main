@@ -20,31 +20,41 @@
             I am also a new technical writer with recent publishes to Javascript.plainenglish.io.
             </div>
             <br>
-        <router-link to="/projects" class="btn1">View projects</router-link>
+        <!-- <router-link to="/projects" class="btn1">View projects</router-link> -->
     </el-tab-pane>
-    <el-tab-pane label="Projects" name="second">
+    <el-tab-pane label="Key Projects/ Contributions" name="second">
       <el-collapse v-model="activeNames" @change="handleChange">
-  <el-collapse-item title="Consistency" name="1">
-    <div>Consistent with real life: in line with the process and logic of real life, and comply with languages and habits that the users are used to;</div>
-    <div>Consistent within interface: all elements should be consistent, such as: design style, icons and texts, position of elements, etc.</div>
+  <el-collapse-item title="MSDAT" name="1">
+    <div>A multisource and triangulation platform built for the ministry of health in Nigeria. It provides a single transparent view of key health indicators against multiple data sources. It offers a view against key metrics using sources that range from routine data, surveys to global estimates recognizing that data quality, trends and interpretation depend on the type of source and methodology behind the data.</div>
+    <a href="https://msdat.fmohconnect.gov.ng/">website link</a>
   </el-collapse-item>
-  <el-collapse-item title="Feedback" name="2">
-    <div>Operation feedback: enable the users to clearly perceive their operations by style updates and interactive effects;</div>
-    <div>Visual feedback: reflect current state by updating or rearranging elements of the page.</div>
+  <el-collapse-item title="Innovation Scaling" name="2">
+    <div>BOTSWANA HEALTH INNOVATION MANAGEMENT SYSTEM; Managing end-to-end process of demand-driven innovations for sustainable impact in Botswana</div>
+    <a href="https://mohinnovations.gov.bw/">website link</a>
   </el-collapse-item>
-  <el-collapse-item title="Efficiency" name="3">
-    <div>Simplify the process: keep operating process simple and intuitive;</div>
-    <div>Definite and clear: enunciate your intentions clearly so that the users can quickly understand and make decisions;</div>
-    <div>Easy to identify: the interface should be straightforward, which helps the users to identify and frees them from memorizing and recalling.</div>
+  <el-collapse-item title="APHRC" name="3">
+    <div>African Population and Health Research Center (APHRC) MEL Portal!
+The portal serves as a comprehensive Measurement and Evaluation (M&E) solution, aligned to APHRC's Strategic and its Measurement, Evaluation, and Learning (MEL) plan. </div>
+<a href="https://aphrc.e4eweb.space/">website link</a>
+<div></div>
   </el-collapse-item>
-  <el-collapse-item title="Controllability" name="4">
-    <div>Decision making: giving advices about operations is acceptable, but do not make decisions for the users;</div>
-    <div>Controlled consequences: users should be granted the freedom to operate, including canceling, aborting or terminating current operation.</div>
+  <el-collapse-item title="Dopawell" name="4">
+    <div>Dopawell: A tele therapy platform for Africans</div>
+    <a href="https://dopawell.com/">website link</a>
+  </el-collapse-item>
+  <el-collapse-item title="IFEPS" name="3">
+    <a href="https://ifeps.org.ng/">website link</a>
+    <div></div>
+  </el-collapse-item>
+  <el-collapse-item title="Arberta" name="4">
+    <a href="https://usiere.github.io/arberta/">website link</a>
+  </el-collapse-item>
+  <el-collapse-item title="LifeOnline" name="4">
+    <a href="https://usiere.github.io/lifeonline/">website link</a>
   </el-collapse-item>
 </el-collapse>
     </el-tab-pane>
-    <el-tab-pane label="Role" name="third">Role</el-tab-pane>
-    <el-tab-pane label="Task" name="fourth">Task</el-tab-pane>
+    <el-tab-pane label="Articles" name="third">Articles</el-tab-pane>
   </el-tabs>
      
         <br><br><br>
