@@ -35,8 +35,8 @@
   <el-collapse-item title="APHRC" name="3">
     <div>African Population and Health Research Center (APHRC) MEL Portal!
 The portal serves as a comprehensive Measurement and Evaluation (M&E) solution, aligned to APHRC's Strategic and its Measurement, Evaluation, and Learning (MEL) plan. </div>
-<a href="https://aphrc.e4eweb.space/" target=”_blank”>website link</a>
-<div></div>
+<span>Portal link is currently private </span>
+  <div></div>
   </el-collapse-item>
   <el-collapse-item title="Dopawell" name="4">
     <div>Dopawell: A tele therapy platform for Africans</div>
