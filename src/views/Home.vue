@@ -15,7 +15,7 @@
       <div>5 years experienced Frontend Fullstack web developer, with core interest in building innovative projects for corporations, startups and individuals.</div>
         <br>
         <div>As a job and a hobby, i make use of industry standard technologies in bringing interesting projects to life. These include
-           <strong> VueJs, NuxtJs, Html, CSS, Javascript, React, NodeJs and ExpressJs and MongoDB.</strong>
+           <strong> VueJs, NuxtJs, Html, CSS, Javascript, Python, React, NodeJs and ExpressJs and MongoDB.</strong>
             In addition, I always imbibe industry methodologies such as Responsive design, UI wireframing(Figma), System Architecture, Agile development and proficent use of npm libraries in projects.
             I am also a new technical writer with recent publishes to Javascript.plainenglish.io.
             </div>
